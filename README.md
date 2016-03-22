@@ -1,9 +1,11 @@
-# Zev-2 Seven Digit Nixie Clock
+# Zev 7 and 8 Digit Nixie Clocks
 Arduino ATmega 1284P based Nixie clock with GPS, PIR, automatic daylight saving time setting, and many additional features.
 
-Zev-2 is a seven digit Nixie tube clock that uses the large, IN-18 Nixie tube. Zev-2-8 is the eight digit version, with RF and a switching power supply
+Zev-1-7 Seven digit clock uses a variety of small tubes. 
+Zev-2-7 Seven digit clock using the IN-18 tube.
+Zev 1-8 & Zev-2-8 Eight digit versions also include nRF24L01+ RF
 
-Features of the clock include:
+Features of the clocks include:
 
 •	RGB LED under lighting with a variety of effects
 
@@ -35,19 +37,14 @@ GPS - The Ublox Neo-6M and 7M commonly available on eBay for under $15 shipped, 
 
 Additional Notes:
 
-Zev-1 and Zev-2 use the same software. See Zev-1 to download Zev-1.ino. The schematic is also the same for both clocks, except substitute 10K resistors on the anodes of the tubes, for the 15k resistors used on the Zev-1. 
-
-LEDFader library is included here because it is not easy to find. TimerThree is here too, modified to work with the 1284P and Bobuino/Skinny Bob. Other libraries are easily found. Use the original Bounce library included with Bounce2, not Bounce2. I changed the name of the MCP23017 library, to MCP23017 because it was too long for me. It's from Adafruit.
+Software:
+Seven digit clocks use Z7 hex file
+Eight digit clocks use Z8 hex file
+Use AVRDude or similar to program the Atmel 1284P chip. Sorry, I cannot help with this.
 
 Files with the extension .ai are the designs for the acrylic tube reflectors. They can be ordered in the USA from Pololu, and at lower cost but obviously longer delivery times from Asian supplies such as Seeed Studio.
 
-Use zev-1.ino on the Zev-1 page, for the seven digit, Zev-2 clock. The eight digit clock only, uses zev-2-8.ino, here.
-
-Sabina-1, a fifteen digit replica of the Metronome clock at Union Square, is running. All designs are here on Github.
+Sabina, a fifteen digit replica of the Metronome clock at Union Square, is also here on Github.
 
 Mitch Feig 
 2/28/16
-
-2/22/16 - This update includes major rewrites and optimizations, throughout the program. Several new options are available including a menu to set RGB color combinations for each hour of the day. 
-
-This is my first circuit and pc board design. Feel free to improve the hardware and software. 
