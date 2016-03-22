@@ -3,7 +3,7 @@ Arduino ATmega 1284P based Nixie clock with GPS, PIR, automatic daylight saving 
 
 Zev-1-7 Seven digit clock uses a variety of small tubes. 
 Zev-2-7 Seven digit clock using the IN-18 tube.
-Zev 1-8 & Zev-2-8 Eight digit versions also include nRF24L01+ RF
+Zev 1-8 & Zev-2-8 are Eight digit versions that also include nRF24L01+.
 
 Features of the clocks include:
 
